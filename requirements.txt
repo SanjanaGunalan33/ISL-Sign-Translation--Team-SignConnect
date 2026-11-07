@@ -1,0 +1,11 @@
+# Python 3.10-3.12 (mediapipe 0.10.14 does not support newer Python versions)
+numpy<2
+mediapipe==0.10.14
+opencv-contrib-python
+torch
+pandas
+tqdm
+sentencepiece
+sacrebleu
+jiwer
+pyttsx3

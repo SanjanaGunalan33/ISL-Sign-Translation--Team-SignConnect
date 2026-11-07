@@ -1,0 +1,53 @@
+{
+  "args": {
+    "name": "overfit",
+    "split_dir": "D:\\Downloads\\isl_translation\\isl_translation\\data\\splits",
+    "epochs": 150,
+    "batch_size": 32,
+    "lr": 0.0005,
+    "weight_decay": 0.01,
+    "warmup": 50,
+    "label_smoothing": 0.0,
+    "patience": 1000000000,
+    "val_batches": 40,
+    "workers": 2,
+    "seed": 42,
+    "drop": [],
+    "overfit": 32,
+    "limit": 0,
+    "cache": false,
+    "d_model": 128,
+    "enc_hidden": 128,
+    "enc_layers": 2,
+    "subsample": 1,
+    "dec_layers": 2,
+    "heads": 4,
+    "ff_dim": 256,
+    "dropout": 0.0,
+    "max_tgt_len": 64
+  },
+  "model": {
+    "in_dim": 323,
+    "vocab_size": 162,
+    "d_model": 128,
+    "enc_hidden": 128,
+    "enc_layers": 2,
+    "subsample": 1,
+    "dec_layers": 2,
+    "n_heads": 4,
+    "ff_dim": 256,
+    "dropout": 0.0,
+    "max_tgt_len": 64
+  },
+  "tokenizer": {
+    "kind": "spm",
+    "path": "D:\\Downloads\\isl_translation\\isl_translation\\data\\splits\\spm.model"
+  },
+  "norm": "D:\\Downloads\\isl_translation\\isl_translation\\data\\splits\\norm.npz",
+  "drop": [],
+  "versions": {
+    "python": "3.11.7",
+    "torch": "2.14.1+cpu",
+    "platform": "Windows-10-10.0.26200-SP0"
+  }
+}

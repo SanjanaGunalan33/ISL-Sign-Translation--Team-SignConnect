@@ -1,0 +1,12 @@
+{
+  "BLEU-1": 12.07,
+  "BLEU-2": 2.7,
+  "BLEU-4": 0.69,
+  "chrF": 8.42,
+  "ROUGE-L": 4.31,
+  "WER": 105.36,
+  "n": 500,
+  "split": "test",
+  "beam": 4,
+  "ckpt": "runs/pilot/best.pt"
+}

@@ -1,0 +1,32 @@
+# Upload only what is listed below; everything else stays on this computer
+/*
+!/.gitignore
+!/README.md
+!/requirements.txt
+!/app.py
+!/src/
+!/scripts/
+!/runs/
+
+/runs/*
+!/runs/pilot/
+!/runs/overfit/
+/runs/pilot/*
+!/runs/pilot/log.csv
+!/runs/pilot/run_config.json
+!/runs/pilot/test_beam1_metrics.json
+!/runs/pilot/test_beam1_predictions.csv
+!/runs/pilot/test_beam4_metrics.json
+!/runs/pilot/test_beam4_predictions.csv
+/runs/overfit/*
+!/runs/overfit/log.csv
+!/runs/overfit/run_config.json
+
+# Never upload these
+__pycache__/
+*.pyc
+*.pt
+*.mp4
+src/record_phrases.py
+scripts/make_demo_subset.py
+scripts/make_synthetic_data.py
